@@ -1,0 +1,82 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@mui/material": "^5.6.3",
+    "@stripe/react-stripe-js": "^1.7.1",
+    "@stripe/stripe-js": "^1.27.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "cdbreact": "^1.5.1",
+    "chart.js": "^3.7.1",
+    "country-state-city": "^3.0.1",
+    "firebase": "^9.8.1",
+    "flickity": "^2.3.0",
+    "flowbite": "^1.4.5",
+    "overlay-navbar": "^1.2.3",
+    "react": "^17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-chartjs-2": "^4.1.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.21.0",
+    "react-hot-toast": "^2.1.1",
+    "react-js-pagination": "^3.0.3",
+    "react-rangeslider": "^2.2.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^7.2.6",
+    "react-responsive-modal": "^6.2.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-simply-tabs": "^1.0.4",
+    "react-slick": "^0.29.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-tabs": "^5.1.0",
+    "react-toastify": "^8.1.0",
+    "reactstrap": "^9.0.1",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.3.0",
+    "swiper": "^6.8.4",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.home,
+.about,
+.contact,
+.login,
+.signup,
+.logout
+ {
+ text-decoration: none;
+ padding: 5px;
+ color: rgb(88, 86, 86);
+ font-size: 16px;
+ font-weight:500;
+}
+.home:hover,.about:hover,.contact:hover,.login:hover,.signup:hover,.logout:hover{
+  color:rgb(10, 10, 10)
+}
+.signup-page{
+  margin: 60px 400px;
+
+}
+.contact-page{
+  margin: 60px 100px;
+}
+
+.login_side{
+    
+        
+        background: url('https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80');
+         background-size: cover;
+          background-position: center ;
+}
+
+.homeHeading{
+  text-align: center;
+  margin-top: 10rem;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(116, 114, 114, 0.5);
+  border-radius: 0;
+  padding:.5rem;
+  margin:1rem auto;
+  width:14rem;
+  color:rgb(0,0,0,0.7)
+}
+.loading{
+  width: 100vw;
+  height: 85vh;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+}
+
+.loading > div {
+  width: 6rem;
+  height: 6rem;
+  border-bottom: 4px solid #000;
+  border-radius: 50%;
+
+  animation: load 800ms linear infinite;
+}
+
+@keyframes load{
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+
+input::file-selector-button{
+  cursor: pointer;
+  width:100%;
+  z-index: 2;
+  height: 5vh;
+  margin:0% ;
+  border:none;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: #000;
+  background-color: aliceblue;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.profile {
+    position: relative;
+    text-align: center;
+ 
+}
+
+.profile img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+   
+    cursor: pointer
+}
+
+.dropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+   
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: all 2s
+}
+
+.dropdown-contents a {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block
+}
+
+.dropdown-contents a:hover {
+    background-color: #ddd
+}
+
+.dropdown:hover .dropdown-contents {
+    display: block
+    
+}
+
+.profile ul {
+    background-color: #fff;
+    width: 200px;
+    height: 190px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   
+    border-radius: 10px;
+    right: 25px;
+    top: 0px;
+    position: absolute;
+    padding: 8px;
+    transition: all 0.5s;
+    z-index: 1
+}
+
+.profile ul::before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    top: -5px;
+    padding-bottom: 4px;
+    transform: rotate(45deg)
+}
+
+.profile ul li {
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 4px;
+  background-color: rgb(245, 244, 244)
+}
+
+.profile ul li:hover {
+    background-color: #eee
+}
+
+.profile ul li i {
+    margin-right: 7px
+} */
+
+
+
+.swiper {
+  width: 100%;
+  height: 60%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
